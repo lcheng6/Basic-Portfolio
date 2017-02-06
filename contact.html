@@ -3,45 +3,56 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Floats</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Liang Cheng Basic Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <div>
     <header>
-    <h1>Liang Cheng<h1>
+      <div id="container">
+        <h1>
+        <strong>Liang Cheng</strong>
+        </h1>
+        <div id="navLinks">
+          <nav>
+            <a href="index.html">About</a>|<a href="#">Portfolio</a>|<a href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </div>
     </header>
-  </div>
-  <div>
-    <nav>
-      nav
-    </nav>
-  </div>
-  <div id="centerSection">
-    <div id="centerSectionLeft">
-      <section>
-        section
-        <article>
-          article
-          <div id="headings">
-            <span>
-              h1, h2, h3
-            </span>
+    <div id="container">
+      <div id="about-me-section">
+        
+        <div id="about-me-description">
+          <label for="name">Name</label>
+          <input type=text" name="name" id="name">
+          <br>
+          <label for="email">Email</label>
+          <input type=text" name="email" id="name">
+          <br>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="30" cols="30"></textarea>
+          
+          
+        </div> <!-- end about-me-description -->
+        <div id="connect-with-me">
+          <div id="connect-with-me-top">
+            <h2>
+            <strong>Connect with Me</strong>
+            </h2>
           </div>
-          <div id="pAfterHeadings">
-            <p>p</p>
-          </div>
-        </article>
-      </section>
-    </div>
-    <div id="centerSectionRight">
-      <aside>
-        aside
-      </aside>
-    </div>
-  </div>
-  <footer>
-    footer
-  </footer>
-</body>
+          <ul>
+            <li><a href="https://github.com/lcheng6" target="_blank"><img src="images/github.png" alt="Matt Martin's GitHub Profile"></a></li>
+            <li><a href="https://www.linkedin.com/in/liang-cheng-2039b81" target="_blank"><img src="images/linkedin.png" alt="Matt Martin's LinkedIn Profile"></a></li>
+            <li><a href="http://stackoverflow.com/users/4017961/liang-cheng" target="_blank"><img src="images/stackOverflow.png" alt="Stack Overflow"></a></li>
+          </ul>
+        </div>
+      </div> <!-- end mid-section -->
+      </div>
+      <div class="footer">
+        <footer>
+          @ Copyright Liang Cheng
+        </footer>
+      </div>
+  </body>
 </html>
