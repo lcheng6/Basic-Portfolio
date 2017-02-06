@@ -38,7 +38,10 @@ h2 {
 	padding: 12px 12px 24px 12px;
 	margin-bottom: 24px;
 }
-
+label {
+	font-size:18px;
+	font-weight:700;
+}
 #container {
 	width: 70%;
     min-height: 100%;
@@ -110,7 +113,7 @@ h2 {
 }
 */
 
-#about-me-description, #connect-with-me {
+#about-me-description, #connect-with-me, #contact-me-section{
 	box-shadow: 10px 10px 10px #727171;
 	border-radius:6px;
 	padding:12px;
@@ -169,8 +172,8 @@ div.footer {
 	margin-top: 150px;
 	/* FIXED FOOTER */
 	position:fixed;
-   left:0px;
-   bottom:0px;
+   	left:0px;
+   	bottom:0px;
 }
 
 #contact-me-section {
@@ -180,4 +183,28 @@ div.footer {
 	margin:2%;
 }
 
+#contact-me-section label {
+	width:100%;
+	display:inline-block;
+	padding-top:10px;
+	padding-bottom:10px;
+}
 
+#contact-me-section input, textarea {
+	width:100%;
+	display:inline-block;
+	font-size:16px;
+}
+
+#button {
+	padding:10px;
+	background-color:#4aaaa5;
+	color:#fff;
+	width:30%;
+	border-radius:6px;
+	font-size:16px;
+
+}
+#button:hover {
+	font-size:24px;
+}
