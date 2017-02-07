@@ -131,16 +131,17 @@ label {
 #about-me-description img{
 	width:33%;
 	height:auto;
-	display:block;
+	/*display:block;*/
 	clear:both;
 	margin:10px;
 	float:left;
 }
 
 #about-me-description p{
-	clear:both;
-	display:block;
+	/*display:flex;*/
 	padding:12px;
+	/*float:left;*/
+	font-size:25px;
 }
 
 #connect-with-me {
