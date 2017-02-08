@@ -102,7 +102,7 @@ label {
 }
 #about-me-section {
 	overflow:auto;
-	height:1000px;
+	height:1300px;
 }
 /*
 #about_me {
@@ -119,7 +119,7 @@ label {
 	padding:12px;
 }
 
-#about-me-description {
+#about-me-description{
 	background:white;
 	width:66%;
 	float:left;
@@ -151,6 +151,23 @@ label {
 	background:white;
 	text-align:center;
 	/*padding:12px;*/
+}
+
+#portfolio-single-image {
+	width:50%;
+	padding:2%;
+	margin:0 auto;
+	float:left;
+
+}
+
+#portfolio-single-image img{
+	width:100%;
+	border-radius:6px 
+}
+#portfolio-single-image span{
+	text-align:center;
+	display:block;
 }
 
 #connect-with-me img{
