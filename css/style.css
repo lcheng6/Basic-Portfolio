@@ -158,7 +158,7 @@ label {
 	padding:2%;
 	margin:0 auto;
 	float:left;
-
+	position:relative;
 }
 
 #portfolio-single-image img{
@@ -167,18 +167,16 @@ label {
 }
 
 #portfolio-single-image figcaption{
-	/*text-align:center;*/
 	color:white;
 	font:bold 24px;
 	background:rgb(0, 0, 0);
-	background:rgba(0,0, 0, 0.5);
-	/*4aaaa5*/
-	/*padding: 10px;*/
-	position:relative;
-	margin-top:-20px;
-	text-align:center;
+	background:rgba(74,170, 165, 0.5);
+	position:absolute;
 	width:100%;
-	/*height:100px;*/
+	left:10px;
+	bottom:50px;
+	text-align:center;
+	line-height:50px;
 }
 
 #connect-with-me img{
