@@ -163,11 +163,22 @@ label {
 
 #portfolio-single-image img{
 	width:100%;
-	border-radius:6px 
+	border-radius:6px;
 }
-#portfolio-single-image span{
+
+#portfolio-single-image figcaption{
+	/*text-align:center;*/
+	color:white;
+	font:bold 24px;
+	background:rgb(0, 0, 0);
+	background:rgba(0,0, 0, 0.5);
+	/*4aaaa5*/
+	/*padding: 10px;*/
+	position:relative;
+	margin-top:-20px;
 	text-align:center;
-	display:block;
+	width:100%;
+	/*height:100px;*/
 }
 
 #connect-with-me img{
